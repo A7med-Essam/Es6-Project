@@ -1,0 +1,116 @@
+h1 {
+    text-shadow: 3px 2px 10px #757575;
+}
+
+.userValue {
+    height: 40px;
+}
+
+/* section1 ~ babySound */
+#babySound h2 {
+    font-size: 100px;
+}
+
+.change-color {
+    animation: change 3s ease-in-out infinite;
+}
+
+@keyframes change {
+    0% {
+        background-color: rgb(240, 117, 9);
+    }
+
+    10% {
+        background-color: rgb(255, 0, 0);
+    }
+
+    20% {
+        background-color: rgb(30, 218, 108);
+    }
+
+    30% {
+        background-color: rgb(164, 22, 230);
+    }
+
+    40% {
+        background-color: rgb(88, 230, 22);
+    }
+
+    50% {
+        background-color: rgb(238, 21, 50);
+    }
+
+    60% {
+        background-color: rgb(73, 8, 2);
+    }
+
+    70% {
+        background-color: rgb(138, 134, 175);
+    }
+
+    80% {
+        background-color: rgb(186, 223, 25);
+    }
+
+    90% {
+        background-color: rgb(223, 76, 7);
+    }
+
+    100% {
+        background-color: rgb(177, 13, 241);
+    }
+}
+
+/* section2 ~ Date */
+
+#date {
+    background-image: url(../img/overlay-bg.jpg);
+    background-attachment: fixed;
+}
+
+.bg-mine-success {
+    background-color: rgba(141, 255, 106, 0.479);
+}
+
+.bg-mine-primary {
+    background-color: rgba(103, 164, 255, 0.322);
+}
+
+.bg-mine-danger {
+    background-color: rgba(255, 88, 96, 0.322);
+}
+
+.clock1 {
+    padding: 10px 0px;
+    font-size: 25px;
+}
+
+.clock {
+    font-size: 100px;
+    font-style: italic;
+}
+
+/* footer */
+
+#validation h2 {
+    text-shadow: 3px 2px 10px #757575;
+}
+
+
+
+/* Media Query */
+
+@media screen and (max-width:769px) {
+    #getItems {
+        width: 80%;
+        margin: 10px auto;
+    };
+
+    #babySound h2{
+        font-size: 70px;
+    }
+
+    #date h2{
+        font-size: 90px;
+    }
+}
